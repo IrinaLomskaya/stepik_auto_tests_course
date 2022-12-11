@@ -1,0 +1,17 @@
+1670766840212	geckodriver	INFO	Listening on 127.0.0.1:56814
+1670766840732	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56815" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/7g/nyflkhxx72z4jnrc3tv9lrdm0000gn/T/rust_mozprofileu4Vcgl"
+1670766841450	Marionette	INFO	Marionette enabled
+1670766841498	Marionette	INFO	Listening on port 56823
+Read port: 56823
+WebDriver BiDi listening on ws://127.0.0.1:56815
+1670766841817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/7g/nyflkhxx72z4jnrc3tv9lrdm0000gn/T/rust_mozprofileu4Vcgl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56815/devtools/browser/100887c9-8090-4707-95f2-455c6f5ff111
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://suninjuly.github.io."
+1670766845812	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1670766855854	Marionette	INFO	Stopped listening on port 56823
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
