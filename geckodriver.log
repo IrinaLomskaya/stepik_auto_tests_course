@@ -519,3 +519,4 @@ console.error: (new TypeError("topBrowsingContext is null", "resource://devtools
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://suninjuly.github.io."
 console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs", 387))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://suninjuly.github.io."
+1670798234247	Marionette	INFO	Stopped listening on port 53068
